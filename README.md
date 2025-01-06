@@ -1,4 +1,5 @@
-**Overview:** This project focuses on the development of a LinkedIn Analytics Dashboard using Power BI. The dashboard provides actionable insights into LinkedIn activity metrics, such as total connections, companies followed, invitations sent/received, and engagement levels. By leveraging Power BI's advanced visualization and filtering features, the system empowers users to optimize their professional networking strategies, monitor growth trends, and make data-driven decisions.
+**Overview:** 
+This project focuses on the development of a LinkedIn Analytics Dashboard using Power BI. The dashboard provides actionable insights into LinkedIn activity metrics, such as total connections, companies followed, invitations sent/received, and engagement levels. By leveraging Power BI's advanced visualization and filtering features, the system empowers users to optimize their professional networking strategies, monitor growth trends, and make data-driven decisions.
 
 **Features:**
 
