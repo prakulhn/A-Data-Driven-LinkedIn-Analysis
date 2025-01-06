@@ -17,19 +17,29 @@ c. Reactions (likes, comments, shares) breakdown.
 **5. Ease of Use:** Intuitive and user-friendly interface suitable for non-technical users.
 
 **Project Goals:**
+
 **1. Data Consolidation:** Collect and transform LinkedIn data into an analyzable format.
+
 **2. Data Visualization:** Build an interactive dashboard to analyze key metrics.
+
 **3. Growth Monitoring:** Track professional network expansion and engagement.
+
 **4. Accessibility:** Ensure compatibility with desktop and mobile devices.
+
 **5. Ethical Data Handling:** Comply with LinkedIn’s data privacy and security standards.
 
 **Methodology:**
+
 **1. Data Collection:** Export data manually from LinkedIn in CSV/Excel format.
+
 **2. Data Preparation:** Clean and structure the data using Power Query in Power BI.
+
 **3. Dashboard Development:**
 a. Create visualizations using charts, graphs, and KPIs.
 b. Integrate slicers for dynamic filtering.
+
 **4. Testing:** Validate data accuracy, interactivity, and responsiveness.
+
 **5. Optimization:** Develop a mobile-friendly version for real-time insights.
 
 **Technology Stack:**
@@ -39,9 +49,12 @@ b. Integrate slicers for dynamic filtering.
 4) Power Query and DAX (Data Analysis Expressions)
 
 **Results:**
+
 **1. Visuals:**
 a. Total connections, invitations sent/received, and reactions displayed via KPIs.
 b. Growth trends visualized through area charts and stacked bar/column charts.
 c. WordCloud highlighting connections by position.
+
 **2. Interactivity:** Dynamic filtering by year, company, or position.
+
 **3. Mobile Support:** Dashboard adapts to mobile devices for seamless use.
