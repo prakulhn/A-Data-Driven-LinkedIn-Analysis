@@ -2,6 +2,7 @@
 
 **Features:**
 **1. Dynamic Dashboard:** Visualizes LinkedIn metrics such as connections, engagement levels, and growth trends.
+
 **2. Key Insights:**
 a. Month-over-Month (MoM) growth tracking.
 b. Connections by company, position, and other dimensions.
