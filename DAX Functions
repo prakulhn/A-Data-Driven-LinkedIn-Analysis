@@ -1,0 +1,27 @@
+1. Invitations Received = COUNTROWS(FILTER(ALL(Invitations), Invitations[Direction]="Incoming"))
+
+2. Invitations Sent = COUNTROWS(FILTER(ALL(Invitations), Invitations[Direction]="Outgoing"))
+
+3. Total Companies = DISTINCTCOUNT(Connections[Company])
+
+4. Total Connections = COUNT(Connections[First Name])
+
+5. Total Reactions = COUNT(Reactions[Type])
+
+6. Dates = 
+VAR MinDate = YEAR(MIN(Connections[Date]))
+VAR MaxDate = YEAR(MAX(Connections[Date]))
+RETURN 
+ADDCOLUMNS(
+    FILTER(
+    CALENDARAUTO(),
+    AND(YEAR([Date])>=MinDate, YEAR([Date])<=MaxDate)
+    ),
+    "Year", FORMAT([Date], "yyyy"),
+    "Month Name", FORMAT([Date], "mmm"),
+    "Month Number", MONTH([Date]),
+    "Weekday", FORMAT([Date], "dddd"),
+    "Weekday Number", WEEKDAY([Date]),
+    "Year Month", FORMAT([Date], "mmm yy"),
+    "Quarter", "Q" & TRUNC((MONTH([Date]-1)/3)+1)
+)
